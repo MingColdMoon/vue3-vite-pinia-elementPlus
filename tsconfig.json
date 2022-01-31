@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "types": ["unplugin-icons/types/vue"],
+    "baseUrl": "./",
+    // 辅助的导入功能
+    "importHelpers": true,
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "paths": {
+      "@/*": ["src/*"],
+      "components/*": ["src/components/*"],
+      "types/*": ["src/types/*"],
+      "store/*": ["src/store/*"]
+    },
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
