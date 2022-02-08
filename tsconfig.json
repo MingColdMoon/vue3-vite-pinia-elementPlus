@@ -18,7 +18,8 @@
       "@/*": ["src/*"],
       "components/*": ["src/components/*"],
       "types/*": ["src/types/*"],
-      "store/*": ["src/store/*"]
+      "store/*": ["src/store/*"],
+      "views/*": ["src/views/*"],
     },
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
