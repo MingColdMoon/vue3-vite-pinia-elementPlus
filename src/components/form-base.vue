@@ -15,7 +15,6 @@
 <script setup lang="ts">
 import { computed, reactive } from 'vue'
 import { FROM_CONFIG } from 'types/FROM_CONFIG'
-import { get } from 'http'
 const propData = defineProps<{
   formData: FROM_CONFIG[]
 }>()
